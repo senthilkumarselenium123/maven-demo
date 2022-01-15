@@ -115,7 +115,7 @@
                      <suiteXmlFile>TEST_NEW.xml</suiteXmlFile>
                   </suiteXmlFiles>
 				<systemPropertyVariables>
-				<Browser>${Browser}</Browser>
+				<browser>${Browser}</browser>
 				</systemPropertyVariables>
                </configuration>
       </plugin>
