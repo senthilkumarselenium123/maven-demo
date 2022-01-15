@@ -15,7 +15,6 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
-
 <dependencies>
 <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
@@ -115,6 +114,9 @@
                   <suiteXmlFiles>
                      <suiteXmlFile>TEST_NEW.xml</suiteXmlFile>
                   </suiteXmlFiles>
+				<systemPropertyVariables>
+				<Browser>${Browser}</Browser>
+				</systemPropertyVariables>
                </configuration>
       </plugin>
     </plugins>
